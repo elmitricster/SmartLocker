@@ -1,0 +1,2 @@
+java C:\Users\Han\AndroidStudioProjects\smartlockersystem\app\src\main\java\com\example\smartlockersystem
+xml C:\Users\Han\AndroidStudioProjects\smartlockersystem\app\src\main\res\layout

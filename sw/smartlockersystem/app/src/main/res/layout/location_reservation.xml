@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="#E1EFF8">
+
+
+        <TextView
+            android:id="@+id/textView555"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="예약할 건물을 선택해주세요."
+            android:textColor="#090808"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:text=""
+            android:foreground="@drawable/bekdo"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="백도"
+            android:textColor="#090808"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="347dp" />
+
+        <Button
+            android:id="@+id/button5165"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:text=""
+            android:foreground="@drawable/baegdo"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <TextView
+            android:id="@+id/textView15156"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홍도"
+            android:textColor="#090808"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="347dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

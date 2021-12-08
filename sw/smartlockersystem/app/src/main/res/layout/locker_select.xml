@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="#E1EFF8">
+
+        <TextView
+            android:id="@+id/textView4544"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1층"
+            android:textColor="#030303"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <Button
+            android:id="@+id/sa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:text="1번 사물함"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <Button
+            android:id="@+id/sa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:text="2번 사물함"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <Button
+            android:id="@+id/sa3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3번 사물함"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView44741"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 2층"
+            android:textColor="#030303"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <Button
+            android:id="@+id/sa4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:text="4번 사물함"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <Button
+            android:id="@+id/sa5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:text="5번 사물함"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <Button
+            android:id="@+id/sa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6번 사물함"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="504dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

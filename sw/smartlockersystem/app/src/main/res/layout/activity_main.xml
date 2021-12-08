@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#E1EFF8">
+
+    <TextView
+        android:id="@+id/textView_main_label"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="전남대 사물함"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="예약 시스템"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editText_main_searchKeyword1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:hint="아이디" />
+
+    <EditText
+        android:id="@+id/editText_main_searchKeyword2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:hint="비밀번호" />
+
+    <Button
+        android:id="@+id/button_main_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_custom_button"
+        android:text="로그인"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/listView_main_list"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textView_main_result"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+</LinearLayout>
